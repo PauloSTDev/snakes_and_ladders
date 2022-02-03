@@ -2,15 +2,14 @@
 
 Implementação do Game Cobras e Escadas
 
-## Getting Started
+## Como rodar o code?
+Precisamos instalar e configurar o Android Studio, podemos seguir a doc para instalar: https://developer.android.com/studio/install e para configurar: https://developer.android.com/studio/intro/studio-config.
 
-This project is a starting point for a Flutter application.
+Em seguida instalar e configurar o Flutter e Dart:
+Docs: https://docs.flutter.dev/get-started/install, basta selecionar o seu Sistema Operacional e seguir, na documentação tambem mostra algumas configurações do Android Studio.
 
-A few resources to get you started if this is your first Flutter project:
+Depois podemos criar um novo projeto com o nome que quiser e clonar os arquivos do GitHub, executar o pub get para baixar as dependencias e executar o código na web ou android, caso queira rodar no seu celular deve-se habilitar o modo desenvolvedor, segue documentação: https://developer.android.com/studio/debug/dev-options?hl=pt-br.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Como posso testar?
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No arquivo main.dart, na linha 83 podemos descomentar para ativar animação do player1 e na linha 90 para mostrar a animação do player2.
